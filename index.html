@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>EASA Portfólio</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="img/easa.png" alt="logo" width="250"></a>
+        
+        <ul>
+            <a href="#"><li>Inicio</li></a>
+            <a href="#projetos"><li>Projetos</li></a>
+            <a href="#habilidades"><li>Habilidades</li></a>
+            <a href="#sobres"><li>Sobre mim</li></a>
+            <a href="#contactos"><li>Contactos</li></a>
+        </ul>
+
+        <img src="img/menu_24px.png" id="menubg" alt="menubg" width="20" height="30" onclick="mostrarmenu()">
+    </header>
+
+    <main>
+        <nav class="menu-mobile">
+            <img src="img/delete_50px.png" alt="menuClose" onclick="fecharmenu()">
+            <ul>
+                <a href="#"><li>Inicio</li></a>
+                <a href="#projetos"><li>Projetos</li></a>
+                <a href="#habilidades"><li>Habilidades</li></a>
+                <a href="#sobres"><li>Sobre mim</li></a>
+                <a href="#contactos"><li>Contactos</li></a>
+            </ul>
+        </nav>
+        <section>
+            <section id="inicio">
+                <div>
+                    <p>Olá, sou o Eliandro Alfredo um <br> Desenvolvedor.</p>
+
+                    <div>
+                        <a href="#"><img src="img/facebook_48px.png" alt="facebooklogo" width="40vh"></a>
+                        <a href="#"><img src="img/whatsapp_48px.png" alt="facebooklogo" width="40vh"></a>
+                        <a href="#"><img src="img/linkedin_circled_48px.png" alt="facebooklogo" width="40vh"></a>
+                        <a href="#"><img src="img/instagram_48px.png" alt="facebooklogo" width="40vh"></a>
+                        <a href="#"><img src="img/github_32px.png" alt="facebooklogo" width="40vh"></a>
+                    </div>
+
+                    <a href="cv.pdf" download>
+                        <button>
+                            Baixar CV
+                        </button>
+                    </a>
+                    
+                </div>
+                <div>
+                    <img id="fotoEli" src="img/elindro.jpg" alt="fotoEli" width="400vh">
+                </div>
+            </section>
+
+            <section id="projeto">
+                <h1 id="projetos">Projetos</h1>
+                <nav>
+                    <div>
+                        <figure>
+                            <a href=""><img src="img/wallpaperbetter.jpg" alt="Projeto1" width="300vh"></a>
+                            <figcaption>Lorem ipsum dolor sit amet </figcaption>
+                        </figure>
+                        <figure>
+                            <a href=""><img src="img/wallpaperbetter.jpg" alt="Projeto1" width="300vh"></a>
+                            <figcaption>Lorem ipsum dolor sit amet </figcaption>
+                        </figure>
+                        <figure>
+                            <a href=""><img src="img/wallpaperbetter.jpg" alt="Projeto1" width="300vh"></a>
+                            <figcaption>Lorem ipsum dolor sit amet </figcaption>
+                        </figure>
+                    </div>
+
+                    <div>
+                        <figure>
+                            <a href=""><img src="img/wallpaperbetter.jpg" alt="Projeto1" width="300vh"></a>
+                            <figcaption>Lorem ipsum dolor sit amet </figcaption>
+                        </figure>
+                        <figure>
+                            <a href=""><img src="img/wallpaperbetter.jpg" alt="Projeto1" width="300vh"></a>
+                            <figcaption>Lorem ipsum dolor sit amet </figcaption>
+                        </figure>
+                        <figure>
+                            <a href=""><img src="img/wallpaperbetter.jpg" alt="Projeto1" width="300vh"></a>
+                            <figcaption>Lorem ipsum dolor sit amet </figcaption>
+                        </figure>
+                    </div>
+                </nav>
+            </section>
+
+            <section id="habilidade">
+                <h1 id="habilidades">Habilidades</h1>
+                <nav>
+                    <div>
+                        <p>Aqui estão algumas das minhas habilidades Adquiridas <br> na área de TI.</p>
+                        <figure>
+                            <img src="img/html_5_48px.png" alt="htmlLogo" width="250" >
+                            <figcaption>2 Projetos</figcaption>
+                        </figure>
+                    </div>
+    
+                    <div class="container">
+                        <p>Click no icon para obter </p>
+    
+                        <input type="radio" class="radio" name="progress" value="html" id="html">
+                        <label for="html" class="label" onclick="verhtml"><img src="img/html_5_48px.png" alt="html" width="30"></label>
+        
+                        <input type="radio" class="radio" name="progress" value="css" id="css">
+                        <label for="css" class="label" onclick="vercss"><img src="img/css3_48px.png" alt="css" width="30"></label>
+        
+                        <input type="radio" class="radio" name="progress" value="js" id="js">
+                        <label for="js" class="label" onclick="verjs"><img src="img/javascript_48px.png" alt="js" width="30"></label>
+        
+                        <input type="radio" class="radio" name="progress" value="php" id="php">
+                        <label for="php" class="label" onclick="verphp"><img src="img/php_logo_64px.png" alt="php" width="30"></label>
+        
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+    
+            <section id="sobre">
+                <h1 id="sobres">Sobre</h1>
+                <nav>
+                    <p> Sou um desenvolvedor focado em criar projeto e aprimorar as minhas habilidades relacionada na área de TI.</p>
+                    <div>
+                        <div>
+                            <img id="fotoEli" src="img/elindro.jpg" alt="fotoEli" width="350vh">
+                        </div>
+                        <div>
+                            <div>
+                                <span style="font-size: 3vh;"><strong>Nome:</strong> Eliandro dos Santos Alfredo</span> <br>
+                                <span style="font-size: 3vh;"><strong>Data Nasc:</strong> 12 de maio de 2005</span> <br>
+                                <span style="font-size: 3vh;"><strong>Endereço:</strong> Luanda Zango, Angola</span> <br>
+                                <span style="font-size: 3vh;"><strong>Telefone:</strong> +244 950 012 114</span> <br>
+                                <span style="font-size: 3vh;"><strong>Email:</strong> eliandroalfredo0@gmail.com</span> <br>
+                                <div>
+                                    <a href="cv.pdf" download>
+                                        <button>
+                                            Baixar CV
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+
+            <section id="contacto">
+                <h1 id="contactos">Contactos</h1>
+                <div>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <input type="hidden" name="accessKey" value="cdb79e5f-5966-4029-ba8a-ca0ba6b8a88f">
+                        <label>Nome</label>
+                        <input type="text" name="name" placeholder="Digite o seu nome"> <br>
+                        <label>Email</label>
+                        <input type="text" name="email" placeholder="Digite o seu nome"> <br>
+                        <textarea name="message" cols="30" rows="10"></textarea> <br>
+                        
+                        
+                        <input type="hidden" name="redirectio" value="http://127.0.0.1:5501/index.html#">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                
+            </section>
+        </section>
+    </main>
+</body>
+</html>
